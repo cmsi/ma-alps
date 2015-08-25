@@ -1,6 +1,6 @@
-alps (1:20150825~r7625-1) wheezy; urgency=low
+alps (1:20150825~r7620-1) wheezy; urgency=low
 
-  * New upstream snapshot (20150825-r7625).
+  * New upstream snapshot (20150825-r7620).
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 25 Aug 2015 09:50:14 +0900
 
