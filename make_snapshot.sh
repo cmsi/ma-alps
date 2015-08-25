@@ -27,4 +27,3 @@ mv -f $DIR $DIR2
 tar zcvf "$DIR2.orig.tar.gz" "$DIR2"
 
 rm -rf "$DIR2"
-mv "$DIR.tar.gz" "$DIR2.orig.tar.gz" ../..
