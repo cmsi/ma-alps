@@ -20,6 +20,5 @@ DIR="alps-$DATE-r$REVISION"
 rm -rf "$DIR"
 svn export -r "$REVISION" "$URL" "$DIR"
 tar zcvf "$DIR.tar.gz" "$DIR"
-cp -p "$DIR.tar.gz" "$DIR2.orig.tar.gz" "$DIR2"
 
 rm -rf "$DIR"
