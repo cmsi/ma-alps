@@ -14,7 +14,7 @@
 3. パッケージのビルド
 
         cd $HOME/build
-        sh /development/ma-alps/build.sh > build.log 2>&1 &
+        sh /development/ma-alps/build.sh > build.log 2>&1
 
 4. 生成物を移動
 
