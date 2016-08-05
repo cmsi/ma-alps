@@ -1,7 +1,7 @@
 #!/bin/sh
 
 SCRIPT_DIR=$(dirname $0)
-DATA_DIR="/data"
+DATA_DIR="/data/src"
 
 DATE=$(head -1 ${SCRIPT_DIR}/alps/debian/changelog | sed 's/[:~-]/ /g' | awk '{print $3}')
 REV=$(head -1 ${SCRIPT_DIR}/alps/debian/changelog | sed 's/[:~-]/ /g' | awk '{print $4}')

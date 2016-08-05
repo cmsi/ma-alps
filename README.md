@@ -18,6 +18,6 @@
 
 4. 生成物を移動
 
-        VERSION=20150825~r7620-1
+        VERSION=20150825~r7620
         mkdir -p /data/alps_${VERSION}
-        mv alps-applications_${VERSION}_*.deb alps-tutorials_${VERSION}_*.deb libalps_${VERSION}_*.deb libalps-bin_${VERSION}_*.deb libalps-dbg_${VERSION}_*.deb libalps-dev_${VERSION}_*.deb libboost-numeric-bindings-dev_${VERSION}_*.deb python-pyalps_${VERSION}_*.deb task-alps_${VERSION}_*.deb /data/alps_${VERSION}
+        mv alps_${VERSION}.orig.tar.gz alps_${VERSION}-*.debian.tar.gz *.deb /data/alps_${VERSION}
