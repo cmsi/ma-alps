@@ -28,7 +28,7 @@ set -x
 
 tar zxf $DATA_DIR/alps-$VERSION_ARCHIVE.tar.gz
 mv alps-$VERSION_ARCHIVE $BUILD_DIR
-tar zcf alps-$VERSION_BASE.tar.gz $BUILD_DIR
+tar zcf alps_$VERSION_BASE.orig.tar.gz $BUILD_DIR
 cp -frp $SCRIPT_DIR/alps/debian $BUILD_DIR
 cd $BUILD_DIR
 dch --release "" --distribution $(lsb_release -s -c) --force-distribution
