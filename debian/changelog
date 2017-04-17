@@ -1,34 +1,41 @@
-alps (1:20160816~r7711-1) UNRELEASED; urgency=low
+alps (1:20170127~r7841-1) unstable; urgency=low
+
+  * New upstream snapshot (20170127-r7841).
+  * Added support for Jessie.
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Sun, 16 Apr 2017 16:43:35 +0900
+
+alps (1:20160816~r7711-1) unstable; urgency=low
 
   * New upstream snapshot (20160816-r7711).
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Sat, 03 Sep 2016 00:17:30 +0000
 
-alps (1:20150825~r7620-1) wheezy; urgency=low
+alps (1:20150825~r7620-1) unstable; urgency=low
 
   * New upstream snapshot (20150825-r7620).
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 25 Aug 2015 09:50:14 +0900
 
-alps (1:20150402~r7566-1) wheezy; urgency=low
+alps (1:20150402~r7566-1) unstable; urgency=low
 
   * New upstream snapshot (20150402-r7566).
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Thu, 02 Apr 2015 16:43:40 +0900
 
-alps (1:20140623~r7482-1) wheezy; urgency=low
+alps (1:20140623~r7482-1) unstable; urgency=low
 
   * New upstream snapshot (20140623-r7482).
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Fri, 04 Jul 2014 09:18:02 +0900
 
-alps (1:20140309~r7370-1) wheezy; urgency=low
+alps (1:20140309~r7370-1) unstable; urgency=low
 
   * New upstream snapshot (20140309-r7370).
 
  -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Sun, 09 Mar 2014 19:24:10 +0900
 
-alps (1:20130626~r6962-1) wheezy; urgency=low
+alps (1:20130626~r6962-1) unstable; urgency=low
 
   * New upstream snapshot (20130626-r6962).
   * Renamed alps2* as alps*.

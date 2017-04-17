@@ -97,7 +97,7 @@ Description: The ALPS project - Application binaries
 Package: python-pyalps
 Architecture: any
 Depends: libalps (= ${binary:Version}), python2.7, python-numpy,
- python-matplotlib, ${shlibs:Depends},
+ python-scipy, python-matplotlib, ${shlibs:Depends},
  ${misc:Depends}
 Description: The ALPS project - python modules
  The ALPS project (Algorithms and Libraries for Physics Simulations)

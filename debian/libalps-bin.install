@@ -10,11 +10,6 @@ debian/tmp/usr/bin/extracthtml usr/bin/
 debian/tmp/usr/bin/extractmpl usr/bin/
 debian/tmp/usr/bin/extracttext usr/bin/
 debian/tmp/usr/bin/extractxmgr usr/bin/
-debian/tmp/usr/bin/fleas_correlated usr/bin/
-debian/tmp/usr/bin/fleas_direct usr/bin/
-debian/tmp/usr/bin/fleas_independent usr/bin/
-debian/tmp/usr/bin/fleas_simpleminded usr/bin/
-debian/tmp/usr/bin/fleas_uncorrelated usr/bin/
 debian/tmp/usr/bin/lattice2xml usr/bin/
 debian/tmp/usr/bin/lattice-preview usr/bin/
 debian/tmp/usr/bin/maxent usr/bin/
