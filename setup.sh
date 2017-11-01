@@ -2,8 +2,8 @@
 . $(dirname $0)/path.sh
 test -z $BUILD_DIR && exit 127
 
-if [ -f "$DATA_DIR/alps-$VERSION_ARCHIVE.tar.gz" ]; then :; else
-  echo "Error: $DATA_DIR/alps-$VERSION_ARCHIVE.tar.gz not found"
+if [ -f "$DATA_DIR/${PACKAGE}_${VERSION_BASE}.orig.tar.gz" ]; then :; else
+  echo "Error: $DATA_DIR/${PACKAGE}_${VERSION_BASE}.orig.tar.gz not found"
   exit 127
 fi
 

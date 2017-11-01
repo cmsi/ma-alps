@@ -16,9 +16,8 @@ DATE=$(echo "$DATE" | sed 's/-//g')
 echo "REVISION=$REVISION"
 echo "DATE=$DATE"
 
-DIR="alps-$DATE-r$REVISION"
-rm -rf "$DIR"
-svn export -r "$REVISION" "$URL" "$DIR"
-tar zcvf "$DIR.tar.gz" "$DIR"
+rm -rf "alps_$DATE~r$REVISION"
+svn export -r "$REVISION" "$URL" "alps_$DATE~r$REVISION"
+tar zcvf "alps_$DATE~r$REVISION.orig.tar.gz" "alps_$DATE~r$REVISION"
 
-rm -rf "$DIR"
+rm -rf "alps_$DATE~r$REVISION"
