@@ -1,3 +1,9 @@
+alps (1:20180220~r7849-1) unstable; urgency=low
+
+  * New upstream snapshot (20180220~r7849).
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 05 Jun 2018 13:38:07 +0900
+
 alps (1:20170905~r7843-1) unstable; urgency=low
 
   * New upstream snapshot (20170905-r7843).
