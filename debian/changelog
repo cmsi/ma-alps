@@ -1,3 +1,9 @@
+alps (1:20180220~r7849-2) unstable; urgency=low
+
+  * Workaround for clash of RealVectorObservable with length 1
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Mon, 06 Aug 2018 08:25:15 +0000
+
 alps (1:20180220~r7849-1) unstable; urgency=low
 
   * New upstream snapshot (20180220~r7849).
