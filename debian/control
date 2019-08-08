@@ -1,8 +1,8 @@
 Source: alps
 Section: non-free
 Priority: extra
-Maintainer: Ryo IGARASHI <rigarash@issp.u-tokyo.ac.jp> and Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
-Build-Depends: cdbs, debhelper, cmake, libboost-all-dev, libhdf5-serial-dev | libhdf5-dev, mpi-default-dev, libsqlite3-dev, python-matplotlib, liblapack-dev, gfortran
+Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
+Build-Depends: cdbs, debhelper, cmake, libboost-all-dev, libhdf5-dev, mpi-default-dev, libsqlite3-dev, python-matplotlib, liblapack-dev, gfortran
 Standards-Version: 3.9.1
 Homepage: http://alps.comp-phys.org/
 Vcs-Browser: https://alps.comp-phys.org/trac/browser
