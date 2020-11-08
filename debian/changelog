@@ -1,3 +1,9 @@
+alps (1:20201106~r7860-1) unstable; urgency=low
+
+  * Support Python 3
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Sun, 08 Nov 2020 00:15:33 +0900
+
 alps (1:20190807~r7856-1) unstable; urgency=low
 
   * New upstream snapshot (20190807~r7856).

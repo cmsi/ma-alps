@@ -15,6 +15,9 @@ cd $(dirname $BUILD_DIR)
 cp -p $DATA_DIR/${PACKAGE}_${VERSION_BASE}.orig.tar.gz .
 tar zxf ${PACKAGE}_${VERSION_BASE}.orig.tar.gz
 cp -frp $SCRIPT_DIR/debian $BUILD_DIR
+if [ $(lsb_release -c -s) = "stretch" -o $(lsb_release -c -s) = "xenial" ]; then
+  cp -frp $SCRIPT_DIR/debian9/* $BUILD_DIR/debian
+fi
 
 cd $BUILD_DIR
 sudo apt-get update

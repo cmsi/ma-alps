@@ -2,14 +2,14 @@ Source: alps
 Section: non-free
 Priority: extra
 Maintainer: Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>
-Build-Depends: cdbs, debhelper, cmake, libboost-all-dev, libhdf5-dev, mpi-default-dev, libsqlite3-dev, python3-matplotlib, python3-dev, liblapack-dev, gfortran
+Build-Depends: cdbs, debhelper, cmake, libboost-all-dev, libhdf5-dev, mpi-default-dev, libsqlite3-dev, python-matplotlib, python-dev, liblapack-dev, gfortran
 Standards-Version: 3.9.1
 Homepage: http://alps.comp-phys.org/
 Vcs-Browser: https://alps.comp-phys.org/trac/browser
 
 Package: task-alps
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, alps-applications, alps-tutorials, libalps, libalps-bin, libalps-dbg, libalps-dev, libboost-numeric-bindings-dev, python3-pyalps
+Depends: ${shlibs:Depends}, ${misc:Depends}, alps-applications, alps-tutorials, libalps, libalps-bin, libalps-dbg, libalps-dev, libboost-numeric-bindings-dev, python-pyalps
 Description: The ALPS project - Libraries, Applications, and Tutorials
  The ALPS project (Algorithms and Libraries for Physics Simulations)
  is an open source effort aiming at providing high-end simulation
@@ -76,7 +76,7 @@ Package: alps-applications
 Architecture: any
 Depends: libalps (= ${binary:Version}), ${shlibs:Depends},
  ${misc:Depends}
-Recommends: libalps-bin (= ${binary:Version}), python3-pyalps (=
+Recommends: libalps-bin (= ${binary:Version}), python-pyalps (=
  ${binary:Version})
 Description: The ALPS project - Application binaries
  The ALPS project (Algorithms and Libraries for Physics Simulations)
@@ -86,10 +86,10 @@ Description: The ALPS project - Application binaries
  strives to increase software reuse in the physics community.
  This package contains application binary.
 
-Package: python3-pyalps
+Package: python-pyalps
 Architecture: any
-Depends: libalps (= ${binary:Version}), python3, python3-numpy,
- python3-scipy, python3-matplotlib, ${shlibs:Depends},
+Depends: libalps (= ${binary:Version}), python2.7, python-numpy,
+ python-scipy, python-matplotlib, ${shlibs:Depends},
  ${misc:Depends}
 Description: The ALPS project - python modules
  The ALPS project (Algorithms and Libraries for Physics Simulations)
@@ -101,7 +101,7 @@ Description: The ALPS project - python modules
 
 Package: alps-tutorials
 Architecture: any
-Depends: alps-applications (= ${binary:Version}), python3-pyalps (=
+Depends: alps-applications (= ${binary:Version}), python-pyalps (=
  ${binary:Version}), libalps-bin (= ${binary:Version}),
  ${misc:Depends}
 Description: The ALPS project - tutorials
