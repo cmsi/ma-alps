@@ -89,8 +89,10 @@ Description: The ALPS project - Application binaries
 Package: python3-pyalps
 Architecture: any
 Depends: libalps (= ${binary:Version}), python3, python3-numpy,
- python3-scipy, python3-matplotlib, ${shlibs:Depends},
+ python3-scipy, python3-matplotlib, python3-tk, ${shlibs:Depends},
  ${misc:Depends}
+Conflicts: python-pyalps
+Replaces: python-pyalps
 Description: The ALPS project - python modules
  The ALPS project (Algorithms and Libraries for Physics Simulations)
  is an open source effort aiming at providing high-end simulation
