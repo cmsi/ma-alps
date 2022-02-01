@@ -1,3 +1,9 @@
+alps (1:20210720~r7867-1) unstable; urgency=low
+
+  * New upstream snapshot (20210720~r7867)
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 01 Feb 2022 10:54:23 +0900
+
 alps (1:20201106~r7860-1) unstable; urgency=low
 
   * Support Python 3
